@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Page 1</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="bulle">
+		<a class="logo" >Ugo Scotto Lomassese</a>
+		<div class="categories">
+			<a class="catheader cliquable actif" href="#pagetitre">Accueil</a>
+			<a class="catheader cliquable" href="#partiecv">Mon CV</a>
+			<a class="catheader cliquable" href="#page4">Mes compétences</a>
+			<a class="catheader cliquable" href="#projets">Projets</a>
+			<a class="catheader cliquable" href="#footer">Contact</a>	
+		</div>
+	</header>
+
+	<div class="bloc1">
+		<div class="ligne1">
+			<marquee  scrollamount="20" scrolldelay="10">
+   <!-- L'objet parcourt 10px chaque 10ms -->
+   <img src="images/boulesdiv.jpg">
+   <img src="images/MCD.jpg">
+   <img src="images/snake.jpg">
+   <img src="images/menutaille3.jpg">
+   <img src="images/formulaire.jpg">
+</marquee>
+			<h1>Ugo Scotto Lomassese</h1>
+			
+		</div>
+	</div>
+
+	<div class="pagetitre bulle" id="pagetitre">
+	<h1>Présentation:</h1><br>
+	<p> Mon nom est Ugo Scotto Lomassese, j'ai 18 ans et je vous présente mon portfolio. Je suis étudiant en première année de BUT informatique à l'IUT Gustave Eiffel de Champs sur Marne. Dans ce portfolio vous pouvez retrouver certains projets aboutis que nous avons pu réaliser cette année avec mes camarades. Nous avons pu cette année travailler sur différents projets. Vous pourrez retrouver des travaux portants sur le développement informatique en Python, du développement Web ou encore un projet de base de données. Mais vous retrouverez aussi un panel de compétences acquises cette année dans plusieurs domaines.</p><br>
+</div>
+
+<div class="transition">
+<br>
+<div class="img1">
+<img class="imgtransition" src="images/snake.jpg" height="350px" width="350px"><p class="legende1" onmouseover="document.querySelector('.img1').classList.add('legende')" onmouseleave="document.querySelector('.img1').classList.remove('legende')"><br><a>Snake</a><br>Il s'agit d'un premier projet réaliser en autonomie dont le but était de recréer le jeux Snake. Pour en savoir plus rendez-vous dans la catégorie Projets.</p>
+</div>
+<div class="img2">
+<img class="imgtransition" src="images/boules.jpg" height="350px" width="350px"><p class="legende2" onmouseover="document.querySelector('.img2').classList.add('legende')" onmouseleave="document.querySelector('.img2').classList.remove('legende')"><br><a>La guerre des boules</a><br> Ce projet, établi en duo, conciste à la réalisation d'un jeux video. Pour en savoir plus rendez-vous dans la catégorie Projets. </p>
+
+<br>
+</div>
+</div><hr>
+
+<div class="partiecv" id="partiecv">
+	<img src="images/Moncv.png" class="cv"> 
+	<p> <br>N'hésitez pas à aller voir mon CV ! <br>
+	<img src="images/fleche.png" class="fleche" /><br>
+	<a href="download/CV.pdf" download="CV.pdf" target="_blank"> <button class="V"> Visualiser</button></a></p>
+
+</div>
+<hr>
+<div class="page4" id="page4">
+<div class="profil " id="profil">
+	<h1>Mes compétences</h1>
+	<br><p> Actuellement en première année de BUT informatique, mes compétences sont les suivantes:
+		<div class="compétences">
+		<div class="images">
+	<ul>
+		<li> <img src="images/python.png" > </li>
+		<li><img src="images/html.png" height="70px"> <img src="images/css.png" height="70px"> </li>
+		<li><img src="images/logoBDD.png" height="70px"> </li>
+		<li> <img src="images/Java_Logo.svg.png" height="70px"></li>
+		<li> <img src="images/logo_c.png" height="70px"></li>
+		<li> <img src="images/anglais.png" height="70px"></li>
+		<li> <img src="images/espagnol.jpg" height="70px"></li>
+	</ul>
+</div>
+<div class="note">
+	<ul>
+		<li><img src="images/3,5etoiles.png" class="etoiles"></li>
+		<li><img src="images/4etoiles.png" class="etoiles"></li>
+		<li><img src="images/4,5etoiles.png" class="etoiles"></li>
+		<li><img src="images/4etoiles.png" class="etoiles"></li>
+		<li><img src="images/4etoiles.png" class="etoiles"></li>
+		<li><img src="images/4,5etoiles.png" class="etoiles"></li>
+		<li><img src="images/4,5etoiles.png" class="etoiles"></li>
+	</ul>
+</div></div>
+	A titre personnel, j'ai développé un serveur de jeux vidéo en lua. J'ai donc pu acquérir des compétences en lua mais aussi en xml pour les sons.<br>
+	Pendant l'avancement de nos projets, il était impossible d'être efficace sans être organisé. J'ai donc dut adapter ma méthode de travail afin de progresser dans mes tâches. Il a fallut s'organiser à l'avance et raisonner de manière utile. Mais qui dit réalisation de projets, dit travail d'équipe. En effet sur les plus gros projets réalisés il a fallut former un groupe de travail. Chaque membre du groupe avait un rôle bien précis, ce qui permettait à chacun d'avancer rapidement dans son domaine. Grâce à ces projets en équipe, j'ai appris comment fonctionnait le travail d'équipe.</p><br>
+</div>
+</div>
+<hr>
+
+
+<div class="projets" id="projets">
+<h1>Mes projets</h1>
+<div class ="typeprojet" id="header" onclick="location.href='projetsacademiques.html';" style="cursor:pointer;">
+<div class="contenu" ><a>Projets Académiques</a></div>
+</div>
+<div class ="typeprojet" id="header" onclick="location.href='projetsprofessionels.html';" style="cursor:pointer;">
+<div class="contenu" ><a>Projets Professionnels</a></div>
+</div>
+</div>
+
+<footer id="footer">
+	<div class="logo">
+	<img src="images/logo_iut.png" >
+</div>
+<div class="contact">
+	<h2>Me contacter</h2>
+	<a href="https://www.linkedin.com/in/ugo-scotto-lomassese-33ab98265/"><img src="images/linkedin.png" href=></a>
+	<a href="mailto:joshua.sl1608@gmail.com"><img src="images/logogmail.png" ></a>
+</div>
+<div class="trois">
+	<a href="#top"><img src="images/flechehaut.png" ></a>
+</div>
+</footer>
+
+</body>
+</html>
